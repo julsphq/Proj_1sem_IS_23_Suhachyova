@@ -10,7 +10,7 @@ def double_char(s, c):
     return result
 
 input_string = "Hello, World!"
-character = "o"
+character = "l"
 doubled_string = double_char(input_string, character)
 print(doubled_string)
 
