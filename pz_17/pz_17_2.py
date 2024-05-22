@@ -37,5 +37,5 @@ import os
 #os.startfile('pz_15.pdf')
 
 
-#os.chdir("..")
-#os.remove("test/test1/test.txt")
+os.chdir("..")
+os.remove("test/test1/test.txt")

@@ -22,7 +22,7 @@ def show_season():
         else:
             messagebox.showerror("Ошибка", "Ошибка ввода номера месяца. Введите число от 1 до 12.")
     except ValueError:
-        messagebox.showerror("Ошибка", "Неверный тип данных")
+        messagebox.showerror("Ошибка", "Неверный тип данных!")
 
 window = tk.Tk()
 window.title("Определение времени года")
